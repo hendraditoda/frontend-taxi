@@ -1,8 +1,17 @@
-# React + Vite
+# Yellow Taxi Analytics Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+An analytics dashboard for Yellow Taxi Trip data in NYC, featuring:
+- Map visualization of pickup and drop-off routes.
+- Fare amount analysis based on trip distance and time.
+- Interactive data filtering and visualization.
 
-Currently, two official plugins are available:
+## Features
+- **Frontend**: React.js + Vite
+- **Backend**: Express.js, Sequelize
+- **Database**: PostgreSQL with PostGIS
+- **Deployed on**: 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+- Node.js (v16+)
+- PostgreSQL with PostGIS extension
