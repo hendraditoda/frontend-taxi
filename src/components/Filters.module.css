@@ -1,0 +1,33 @@
+.filtersContainer {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.filtersForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.filtersForm input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1 1 200px;
+}
+
+.resetButton {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ff6666;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.resetButton:hover {
+  background-color: #ff4d4d;
+}
